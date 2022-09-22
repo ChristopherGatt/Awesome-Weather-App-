@@ -18,7 +18,7 @@ const url2 =
   "&appid=" +
   apiKey;
 
-const url3 = "https://pokeapi.co/api/v2/pokemon/ditto";
+//const url3 = "https://pokeapi.co/api/v2/pokemon/ditto";
 
 fetch(url2)
   .then((response) => {

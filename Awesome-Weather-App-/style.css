@@ -22,6 +22,7 @@
   padding-top: 10px;
   padding-left: 1.5%;
   width: 100%;
+  display: flex;
 
   border-bottom: 1px solid black;
 }
@@ -58,6 +59,7 @@ h1 {
   float: right;
   padding-left: 3%;
   box-sizing: border-box 10px solid black;
+  border: 1cm bold black;
 }
 
 #cities {
@@ -86,6 +88,8 @@ h1 {
   flex: auto;
   text-align: left;
   float: left;
+  display: flex;
+  padding-right: 10%;
 }
 
 .row {
@@ -96,6 +100,15 @@ h1 {
   margin: 10px;
   float: left;
 }
+
 h3 {
   padding-bottom: 20%;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 10px;
+  padding-left: 30%;
 }
