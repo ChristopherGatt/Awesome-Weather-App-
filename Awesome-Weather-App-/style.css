@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .headline {
   text-align: right;
   color: white;
@@ -9,14 +14,20 @@
 
 .mainHead {
   padding-right: 25%;
+  font-weight: bold;
+  text-shadow: 1px;
 }
 
-#searchArea {
+.searchArea {
   padding-top: 10px;
   padding-left: 1.5%;
-  width: 30%;
+  width: 100%;
 
   border-bottom: 1px solid black;
+}
+
+.searchA {
+  width: 30%;
 }
 
 h1 {
@@ -42,9 +53,9 @@ h1 {
 }
 
 .weatherInfo {
-  width: 70%;
+  width: 40%;
   text-align: left;
-  float: left;
+  float: right;
   padding-left: 3%;
   box-sizing: border-box 10px solid black;
 }
@@ -56,23 +67,22 @@ h1 {
 }
 
 .col {
+  margin-top: -1%;
   border-radius: 20px;
-  border: 10px solid rgb(43, 2, 2);
+  border: 5px solid rgb(255, 255, 255);
   padding: 0.3%;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   font-size: 25px;
   height: 50px;
   width: 200%;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
   background-color: grey;
 }
 
 #forecast {
-  width: 3%;
+  width: 5%;
   flex: auto;
   text-align: left;
   float: left;
@@ -80,11 +90,11 @@ h1 {
 
 .row {
   text-align: left;
-  bottom: 30%;
   color: white;
   background-color: rgb(25, 25, 78);
-  padding: 50px;
-  margin: 20px;
+  padding: 30px;
+  margin: 10px;
+  float: left;
 }
 h3 {
   padding-bottom: 20%;
