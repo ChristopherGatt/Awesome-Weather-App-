@@ -42,7 +42,7 @@ h1 {
   width: 100%;
 }
 
-.searchBtn {
+#searchBtn {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 5%;
